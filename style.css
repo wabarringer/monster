@@ -1,0 +1,50 @@
+.monster {
+    width: 40vmin;
+    height: 50vmin;
+    background: #06042c;
+    border-radius: 80% 80% 70% 70% / 60% 60% 150% 150%;
+    border: 0.1vmin solid;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.eye-left {
+    width: 25%;
+    aspect-ratio: 1;
+    border-radius: 50% 70% 10% 90%;
+    border: .1vmin solid;
+    position: absolute;
+    left: 15%;
+    top: 20%;
+    background:radial-gradient(circle at 30% 35%, #fff 15%, #fff0 0),
+    radial-gradient(circle at 50% 20%, #fff 8%, #fff0 0),
+    #a40507;
+}
+
+.eye-right {
+    width: 25%;
+    aspect-ratio: 1;
+    border-radius: 70% 50% 90% 10%;
+    border: .1vmin solid;
+    position: absolute;
+    right:15%;
+    top: 20%;
+    background:radial-gradient(circle at 30% 35%, #fff 15%, #fff0 0),
+    radial-gradient(circle at 50% 20%, #fff 8%, #fff0 0),
+    #a40507;
+}
+
+.mouth {
+    width: 30%;
+    height: 15%;
+    border-radius: 0% 0% 70% 70%;
+    border: .1vm solid;
+    background-color: #c13e5d;
+    position: absolute;
+    left: 35%;
+    top: 50%;
+}
+
+
